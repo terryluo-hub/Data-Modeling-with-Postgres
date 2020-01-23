@@ -66,7 +66,7 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 - year (INT) NOT NULL
 - weekday (INT) NOT NULL
 
-![ERD] (ERD.PNG)
+![ERD] (ERD.png)
 
 ## File Structure
 
