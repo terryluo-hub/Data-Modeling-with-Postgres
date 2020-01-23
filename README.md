@@ -82,6 +82,6 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 
 Files will be excuted in the following orders:
 
--1.create_tables.py
--2.etl.py
--3.test.ipynb
+- 1.create_tables.py
+- 2.etl.py
+- 3.test.ipynb
