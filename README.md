@@ -66,6 +66,8 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 - year (INT) NOT NULL
 - weekday (INT) NOT NULL
 
+![ERD] (https://r766469c826263xjupyterllyjhwqkl.udacity-student-workspaces.com/view/ERD.PNG)
+
 ## File Structure
 
 - `sql_queries.py` - contains all the sql queries, and is imported into the following files
@@ -82,6 +84,6 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 
 Files will be excuted in the following orders:
 
-- 1.create_tables.py
-- 2.etl.py
-- 3.test.ipynb
+1.create_tables.py
+2.etl.py
+3.test.ipynb
