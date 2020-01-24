@@ -70,7 +70,7 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 
 ## File Structure
 
-- `sql_queries.py` - contains all the sql queries, and is imported into the following files
+- `sql_queries.py` - It contains all the sql scripts for drop and create tables for storing song and log information.
 - `create_tables.py` - drops and creates tables in postgres database.
 - `etl.ipynb` - reads and processes the single file from song_data and log_data and loads the data into the postgres database.
 - `etl.py` - reads and processes all the files from song_data and log_data and loads the data into the postgres database.
@@ -78,12 +78,17 @@ This database uses the star schema: One Fact Table and Four Dimension Tables.
 
 ## ETL pipeline
 
-- ETL.py will first connect to the sparkify datase. And it will drop and create all the tables.
-- Json files will be parsed and get loaded into dataframe.
+  ETL.py will work as following for processing the data:
+- Connect to the sparkify datase. And it will drop and create all the tables.
+- Parse out each json file and load all of the files into dataframe.
 - Song_data and Log_data will be loaded into the fact and dimension tables.
 
 Files will be excuted in the following orders:
 
-1.create_tables.py
-2.etl.py
-3.test.ipynb
+- 1.create_tables.py
+- 2.etl.py
+- 3.test.ipynb
+
+## Summary
+
+This project will provide Sparkify to answer some business question like 'Which are the top popular songs users are listening to".
